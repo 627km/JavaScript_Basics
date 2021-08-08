@@ -32,17 +32,17 @@ family.splice(family.length, 0, '액션가면');
 let country = ['한국', '중국','일본', '미국', '영국', '러시아', '호주']; 
 // 배열의 첫 요소를 삭제: shift()
 country.shift();  // 배열의 첫 요소를 삭제하고 나머지는 앞으로 밀린다. 
-console.log(country);
+console.log(country);  // [중국 일본 미국 영국 러시아 호주] 출력
 
 // 배열의 마지막 요를 삭제: pop()
 country.pop();
-console.log(country);
+console.log(country);  // [중국 일본 미국 영국 러시아] 출력
 
 //배열의 첫 요소로 값 추가: unshift()
 country.unshift('프랑스');
-console.log(country);
+console.log(country);  // [프랑스 중국 일본 미국 영국 러시아] 출력
 
 // 배열의 마지막 요소로 값 추가: push()
 country.push('체코');
-console.log(country);
+console.log(country);  // [프랑스 중국 일본 미국 영국 러시아 체코] 출력
 
