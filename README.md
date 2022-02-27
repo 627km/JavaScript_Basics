@@ -1,1 +1,1 @@
-##JavaScript 기본개념 정리
+## JavaScript 기본개념 정리
