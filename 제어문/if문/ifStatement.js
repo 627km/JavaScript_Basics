@@ -5,6 +5,19 @@ if (조건부분) {
 }
 */
 
+// EX)1
+var date = new Date(); // 현재 날짜와 시간을 구함
+var hour = date.getHours(); // 그 중 시각만 구함 
+
+if (hour < 12) {  // hour < 12 가 참일 때 실행
+  alert('오전입니다.');
+}
+
+if (hour >= 12) {  // hour >= 12 가 참일 때 실행 
+  alert('오후입니다.');
+}
+
+// EX)2
 let temperature = 105;
 
 if (temperature <= 0) {
